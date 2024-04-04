@@ -20,10 +20,10 @@
                 </asp:TableRow>
                 <asp:TableRow>
                     <asp:TableCell>
-            <asp:Calendar ID="calCheckIn" runat="server" EnableViewState="False"></asp:Calendar>
+            <asp:Calendar ID="calCheckInDate" runat="server" ></asp:Calendar>
                     </asp:TableCell>
                     <asp:TableCell>
-            <asp:Calendar ID="calCheckOut" runat="server"></asp:Calendar>
+            <asp:Calendar ID="calCheckOutDate" runat="server"></asp:Calendar>
                     </asp:TableCell>
                 </asp:TableRow>
              <asp:TableRow>
@@ -36,15 +36,15 @@
              </asp:TableRow>
                 <asp:TableRow>
                     <asp:TableCell>
-                        <asp:Button ID="buttonOk" runat="server" Text="Ok"/>
+                        <asp:Button ID="Button" runat="server" Text="Ok" OnClick="Button_Calculation"/>
                     </asp:TableCell>
                 </asp:TableRow>
                 <asp:TableRow>
                     <asp:TableCell>
-                        <asp:TextBox ID="txtCost" runat="server"></asp:TextBox>
+                        <asp:Label ID="lblTotalDays" runat="server" Text="Total Days"></asp:Label>
                     </asp:TableCell>
                     <asp:TableCell>
-                        <asp:TextBox ID="txtDays" runat="server"></asp:TextBox>
+                        <asp:Label ID="lblTotalCost" runat="server" Text="Total Cost"></asp:Label>
                     </asp:TableCell>
                 </asp:TableRow>
                 <asp:TableRow>

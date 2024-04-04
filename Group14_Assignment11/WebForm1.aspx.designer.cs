@@ -33,49 +33,49 @@ namespace Group14_Assignment11
         protected global::System.Web.UI.WebControls.Table Table1;
 
         /// <summary>
-        /// calCheckIn control.
+        /// calCheckInDate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Calendar calCheckIn;
+        protected global::System.Web.UI.WebControls.Calendar calCheckInDate;
 
         /// <summary>
-        /// calCheckOut control.
+        /// calCheckOutDate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Calendar calCheckOut;
+        protected global::System.Web.UI.WebControls.Calendar calCheckOutDate;
 
         /// <summary>
-        /// buttonOk control.
+        /// Button control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button buttonOk;
+        protected global::System.Web.UI.WebControls.Button Button;
 
         /// <summary>
-        /// txtCost control.
+        /// lblTotalDays control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtCost;
+        protected global::System.Web.UI.WebControls.Label lblTotalDays;
 
         /// <summary>
-        /// txtDays control.
+        /// lblTotalCost control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtDays;
+        protected global::System.Web.UI.WebControls.Label lblTotalCost;
 
         /// <summary>
         /// imgHotel control.
