@@ -9,7 +9,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:Table ID="Table1" runat="server" Visible="True" Height="100px">
+            <asp:Table ID="Table1" runat="server" Visible="True" Height="100px" BorderColor="Black" BorderStyle="Solid">
                 <asp:TableRow>
                     <asp:TableCell BackColor="#CCFF99">
                         <asp:Label runat="server" Text="Happy Hotel Reservation System" Font-Bold="True"></asp:Label>
@@ -40,16 +40,16 @@
                     </asp:TableCell>
                 </asp:TableRow>
                 <asp:TableRow>
-                    <asp:TableCell>
+                    <asp:TableCell BorderColor="Black" BorderStyle="Solid" BorderWidth="2">
                         <asp:Label ID="lblTotalDays" runat="server" Text="Total Days"></asp:Label>
                     </asp:TableCell>
-                    <asp:TableCell>
+                    <asp:TableCell BorderColor="Black" BorderStyle="Solid" BorderWidth="2">
                         <asp:Label ID="lblTotalCost" runat="server" Text="Total Cost"></asp:Label>
                     </asp:TableCell>
                 </asp:TableRow>
                 <asp:TableRow>
                     <asp:TableCell>
-                        <asp:Image ID="imgHotel" runat="server" ImageUrl="https://media-cdn.tripadvisor.com/media/photo-s/2a/bd/3b/77/exterior.jpg" Height="180" />
+                        <asp:Image ID="imgHotel" runat="server" ImageUrl="https://media-cdn.tripadvisor.com/media/photo-s/2a/bd/3b/77/exterior.jpg" Height="100" />
                     </asp:TableCell>
                 </asp:TableRow>
             </asp:Table>
